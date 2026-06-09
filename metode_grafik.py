@@ -377,7 +377,7 @@ LABEL_C  = "#e0eaf5"
 def make_figure(show_c1=True, show_c2=True, show_c3=True,
                 show_fill=True, show_vertices=True, show_optimal=True,
                 show_isoprofit=True):
-    fig, ax = plt.subplots(figsize=(9, 7))
+    fig, ax = plt.subplots(figsize=(7, 5))
     fig.patch.set_facecolor(BG)
     ax.set_facecolor(BG)
 
